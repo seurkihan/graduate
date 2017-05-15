@@ -982,3 +982,9 @@ SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
 05-15 22:23:20 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
 SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-15 22:35:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-15 22:35:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]

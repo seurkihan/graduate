@@ -32,7 +32,6 @@ public class SWING extends JFrame implements ActionListener{
 	String items[] = {"build information",
 			"observed behavior",
 			"expected behavior",
-			"steps to reproduce",
 			};
 	String stem[] = {"stem", "1", "2", "3"};
 	String token[] = {"token", "1", "2", "3", "4"};
