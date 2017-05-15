@@ -30,8 +30,7 @@ public class SWING extends JFrame implements ActionListener{
 	private double[][] test;
 	private JTextField[] jtf;
 	String items[] = {"build information",
-			"observed behavior",
-			"expected behavior",
+			"observed behavior"
 			};
 	String stem[] = {"stem", "1", "2", "3"};
 	String token[] = {"token", "1", "2", "3", "4"};
