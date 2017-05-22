@@ -20,13 +20,16 @@ import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import javax.swing.filechooser.FileSystemView;
+import javax.swing.table.DefaultTableModel;
 
 import common.BugReport;
 
 
 public class SWING extends JFrame implements ActionListener{
 	JPanel jp1, jp2, jpPre, jpIR, jpWeight, jpPdays;
-	JTable t;
+	JTable table;
+	JScrollPane scrollPane;
+	
 	private double[][] test;
 	private JTextField[] jtf;
 	String items[] = {"build information",
@@ -49,6 +52,9 @@ public class SWING extends JFrame implements ActionListener{
 	
 	String[] etc = {"구조적 정보", "Stack trace", "comments"};
 	JCheckBox[] checkbox = new JCheckBox[3];
+	
+
+	
 	
 //	NeuralNet NN;
 	JLabel jlcom, jlScore;
@@ -232,14 +238,14 @@ public class SWING extends JFrame implements ActionListener{
 	//past days 시작
 	jpPdays = new JPanel();
 	jpPdays.setLayout(null);
-	jpPdays.setBounds(710, 105, 60, 50);
-	jpPdays.setLocation(710, 105);
+	jpPdays.setBounds(700, 105, 70, 50);
+	jpPdays.setLocation(700, 105);
 	
 	TitledBorder tbPdays = new TitledBorder(new LineBorder(Color.black),"days");
 	jpPdays.setBorder(tbPdays);
 	jp1.add(jpPdays);
 	
-	pdays.setBounds(3, 18, 55, 25);
+	pdays.setBounds(3, 18, 63, 25);
 	pdays.setLocation(3, 18);
 	jpPdays.add(pdays);
 	//past days 끝
@@ -272,6 +278,34 @@ public class SWING extends JFrame implements ActionListener{
 	jp2.setBorder(tb2);
 	add(jp2);
 	
+	scrollPane = new JScrollPane();
+	scrollPane.setBounds(12, 111, 588, 356);
+    jp2.add(scrollPane);
+
+
+
+	
+	table = new JTable();
+    table.setModel(new DefaultTableModel(
+            new Object[][] {
+                   {" ", " ", " ", " ", " ", " ", " ", " "},
+            },
+            new String[] {
+                   "\uC77C\uB828\uBC88\uD638", "\uC6B0\uD3B8\uBC88\uD638", "\uC2DC.\uB3C4", "\uAD6C.\uAD70", "\uB3D9", "\uB9AC", "\uC2DC\uC791\uBC88\uC9C0", "\uB9C8\uC9C0\uB9C9\uBC88\uC9C0"
+            }
+    ) {
+            boolean[] columnEditables = new boolean[] {
+                   false, false, false, false, false, false, false, false
+            };
+            public boolean isCellEditable(int row, int column) {
+                   return columnEditables[column];
+            }
+    });
+   
+    scrollPane.setViewportView(table);
+
+
+
 	
 ////////////////////////////////jp2 end	
 	
@@ -285,6 +319,33 @@ public class SWING extends JFrame implements ActionListener{
 		
 		if(b.getText().equals("run")){
 			try {
+				Object[][] arrAdd = new Object[1][8];
+
+				arrAdd[0][0] = "1";
+                arrAdd[0][1] = "2";
+                arrAdd[0][2] = "3";
+                arrAdd[0][3] = "3";
+                arrAdd[0][4] = "3";
+                arrAdd[0][5] = "3";
+                arrAdd[0][6] = "3";
+                arrAdd[0][7] = "3";
+               
+                table.setModel(new DefaultTableModel(
+                        arrAdd,
+                     new String[] {
+                            "\uC77C\uB828\uBC88\uD638", "\uC6B0\uD3B8\uBC88\uD638", "\uC2DC.\uB3C4", "\uAD6C.\uAD70", "\uB3D9", "\uB9AC", "\uC2DC\uC791\uBC88\uC9C0", "\uB9C8\uC9C0\uB9C9\uBC88\uC9C0"
+                     }
+             ) {
+                     boolean[] columnEditables = new boolean[] {
+                            false, false, false, false, false, false, false, false
+                     };
+                     public boolean isCellEditable(int row, int column) {
+                            return columnEditables[column];
+                     }
+             });
+
+
+
 				
 				jt[1].setText(bugReport.getDescription());
 				repaint();
