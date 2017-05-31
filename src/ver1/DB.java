@@ -18,7 +18,7 @@ private Connection conn = null;
 	{
 		Class.forName("org.h2.Driver");
 		conn = DriverManager.getConnection("jdbc:h2:./DB/ZXING","sa","");
-//		System.out.println("-------- CONNECT WITH "+Property.getInstance().getTargetProduct()+" DB ----------");;
+		System.out.println("-------- CONNECT WITH  DB ----------");;
 
 	}		
 	
@@ -100,13 +100,14 @@ private Connection conn = null;
 			Statement q = conn.createStatement();
 			ResultSet rs = q.executeQuery("SELECT BUG_ID FROM BUG_INFO");
 			while(rs.next()){
-				bugIdList.add(String.valueOf(rs.getInt("BUG_ID")));
+				bugIdList.add(String.valueOf(rs.getInt("BUG_ID")));			
 			}
+			System.out.println(bugIdList);
 			
 		}
 		catch(Exception e)
 		{
-			//System.out.println("ERROR: GET DUP BUG ID LIST");
+			System.out.println("ERROR: GET  BUG ID LIST");
 		}
 		return (ArrayList<String>) bugIdList.clone();
 	}

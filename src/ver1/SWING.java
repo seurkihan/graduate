@@ -76,17 +76,19 @@ public class SWING extends JFrame implements ActionListener{
 
 	
 
-	static ArrayList<String> bugIDList;
+	static ArrayList<String> bugIDList = new ArrayList<String>();;
 	static DB db;
 	static BugReport bugReport;
 	public SWING() throws Exception{		
 		db = new DB();
 		bugIDList = db.getBugIDs();
+		
+		bugID = new String[bugIDList.size()];
 
-//		for(int i=0; i < bugIDList.size(); i++){
-//			bugID[i] = bugIDList.get(i);
-//			System.out.print(bugID[i]);
-//		}
+		for(int i=0; i < bugIDList.size(); i++){
+			bugID[i] = bugIDList.get(i);
+			System.out.print(bugID[i]);
+		}
 		
 		test = new double[1][9];
 		setLayout(null);
