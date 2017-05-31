@@ -83,10 +83,10 @@ public class SWING extends JFrame implements ActionListener{
 		db = new DB();
 		bugIDList = db.getBugIDs();
 
-		for(int i=0; i < bugIDList.size(); i++){
-			bugID[i] = bugIDList.get(i);
-			System.out.print(bugID[i]);
-		}
+//		for(int i=0; i < bugIDList.size(); i++){
+//			bugID[i] = bugIDList.get(i);
+//			System.out.print(bugID[i]);
+//		}
 		
 		test = new double[1][9];
 		setLayout(null);

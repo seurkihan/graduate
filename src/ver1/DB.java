@@ -17,7 +17,7 @@ private Connection conn = null;
 	DB() throws Exception
 	{
 		Class.forName("org.h2.Driver");
-		conn = DriverManager.getConnection("jdbc:h2:./DB/ASPECTJ","sa","");
+		conn = DriverManager.getConnection("jdbc:h2:./DB/ZXING","sa","");
 //		System.out.println("-------- CONNECT WITH "+Property.getInstance().getTargetProduct()+" DB ----------");;
 
 	}		
@@ -34,7 +34,7 @@ private Connection conn = null;
 		try
 		{
 			Statement q = conn.createStatement();
-			ResultSet rs = q.executeQuery("SELECT * from Initial_BUG_REPORT");
+			ResultSet rs = q.executeQuery("SELECT * FROM BUG_INFO");
 			while(rs.next()){
 				BugReport bugReport = new BugReport();
 				bugReport.setBugID(rs.getInt("BUG_ID"));
@@ -66,7 +66,7 @@ private Connection conn = null;
 		try
 		{
 			Statement q = conn.createStatement();
-			ResultSet rs = q.executeQuery("SELECT * from Initial_BUG_REPORT WHERE BUG_ID = "+bugID);
+			ResultSet rs = q.executeQuery("SELECT * FROM BUG_INFO WHERE BUG_ID = "+bugID);
 			while(rs.next()){
 				bugReport.setBugID(rs.getInt("BUG_ID"));
 				bugReport.setReporter(rs.getString("BUG_AUT"));
@@ -98,7 +98,7 @@ private Connection conn = null;
 		try
 		{
 			Statement q = conn.createStatement();
-			ResultSet rs = q.executeQuery("SELECT BUG_ID from Initial_BUG_REPORT");
+			ResultSet rs = q.executeQuery("SELECT BUG_ID FROM BUG_INFO");
 			while(rs.next()){
 				bugIdList.add(String.valueOf(rs.getInt("BUG_ID")));
 			}
