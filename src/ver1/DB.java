@@ -102,11 +102,10 @@ private Connection conn = null;
 			while(rs.next()){
 				bugIdList.add(String.valueOf(rs.getInt("BUG_ID")));
 			}
-			
 		}
 		catch(Exception e)
 		{
-			//System.out.println("ERROR: GET DUP BUG ID LIST");
+			System.out.println("ERROR: GET  BUG ID LIST");
 		}
 		return (ArrayList<String>) bugIdList.clone();
 	}

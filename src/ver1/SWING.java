@@ -55,14 +55,14 @@ public class SWING extends JFrame implements ActionListener{
 	String[] etc = {"구조적 정보", "Stack trace", "comments"};
 	JCheckBox[] checkbox = new JCheckBox[3];
 	
-	String[] bottomTitle = {"top1", "top5", "top10", "MAP", "MRR"};
+	String[] bottomTitle = {"Top1", "Top5", "Top10", "MAP", "MRR"};
 	JTextField top1 = new JTextField(10);
 	JTextField top5 = new JTextField(10);
 	JTextField top10 = new JTextField(10);
 	JTextField map = new JTextField(10);
 	JTextField mrr = new JTextField(10);
 	
-	String[] bottom2Title = {"top1", "top5", "top10", "MAP", "MRR"};
+	String[] bottom2Title = {"Top1", "Top5", "Top10", "MAP", "MRR"};
 	JTextField top1_2 = new JTextField(10);
 	JTextField top5_2 = new JTextField(10);
 	JTextField top10_2 = new JTextField(10);
@@ -71,22 +71,15 @@ public class SWING extends JFrame implements ActionListener{
 	
 	JLabel clickedSC;
 	JTextField jtClicked = new JTextField(10);
-	
-	String[] bugID;
+
 
 	
 
-	static ArrayList<String> bugIDList;
+	static ArrayList<String> bugIDList = new ArrayList<String>();
 	static DB db;
 	static BugReport bugReport;
 	public SWING() throws Exception{		
-		db = new DB();
-		bugIDList = db.getBugIDs();
-
-//		for(int i=0; i < bugIDList.size(); i++){
-//			bugID[i] = bugIDList.get(i);
-//			System.out.print(bugID[i]);
-//		}
+		
 		
 		test = new double[1][9];
 		setLayout(null);
@@ -484,13 +477,20 @@ public class SWING extends JFrame implements ActionListener{
 		
 		if(b.getText().equals("run")){
 			try {
-	
+				db = new DB();
+				bugIDList = db.getBugIDs();
+				String[] bugID = new String[bugIDList.size()];
 
-				Object[][] arrAdd = new Object[1][3];
+				for(int i=0; i < bugIDList.size(); i++){
+		 			bugID[i] = bugIDList.get(i);
+		 			//System.out.print(bugID[i]+" ");
+		 		}
 
-				arrAdd[0][0] = "1";
-                arrAdd[0][1] = "2";
-                arrAdd[0][2] = "3";
+				Object[][] arrAdd = new Object[bugIDList.size()][3];
+
+				for(int i=0; i<bugIDList.size(); i++){
+					arrAdd[i][0] = bugID[i];
+				}
 
                
                 table1.setModel(new DefaultTableModel(
