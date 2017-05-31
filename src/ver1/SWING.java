@@ -26,9 +26,9 @@ import common.BugReport;
 
 
 public class SWING extends JFrame implements ActionListener{
-	JPanel jp1, jp2, jpPre, jpIR, jpWeight, jpPdays;
-	JTable table;
-	JScrollPane scrollPane;
+	JPanel jp1, jp2, jpPre, jpIR, jpWeight, jpPdays, jpBottom,jpBottom2;
+	JTable table1, table2;
+	JScrollPane sp1, sp2;
 	
 	private double[][] test;
 	private JTextField[] jtf;
@@ -39,6 +39,7 @@ public class SWING extends JFrame implements ActionListener{
 	String token[] = {"token", "1", "2", "3", "4"};
 	String sword[] = {"sword", "1", "2", "3"};
 	String IR[] = {"IR", "1", "2", "3"};
+	
 	
 	JLabel jl[] = new JLabel[9];
 	JTextArea jt[] = new JTextArea[9];
@@ -53,11 +54,25 @@ public class SWING extends JFrame implements ActionListener{
 	String[] etc = {"구조적 정보", "Stack trace", "comments"};
 	JCheckBox[] checkbox = new JCheckBox[3];
 	
+	String[] bottomTitle = {"top1", "top5", "top10", "MAP", "MRR"};
+	JTextField top1 = new JTextField(10);
+	JTextField top5 = new JTextField(10);
+	JTextField top10 = new JTextField(10);
+	JTextField map = new JTextField(10);
+	JTextField mrr = new JTextField(10);
+	
+	String[] bottom2Title = {"top1", "top5", "top10", "MAP", "MRR"};
+	JTextField top1_2 = new JTextField(10);
+	JTextField top5_2 = new JTextField(10);
+	JTextField top10_2 = new JTextField(10);
+	JTextField map_2 = new JTextField(10);
+	JTextField mrr_2 = new JTextField(10);
+	
+	JLabel clickedSC;
+	JTextField jtClicked = new JTextField(10);
+	
+	
 
-	
-	
-//	NeuralNet NN;
-	JLabel jlcom, jlScore;
 	
 	static int index = 0;
 	static ArrayList<String> bugIDList;
@@ -68,19 +83,17 @@ public class SWING extends JFrame implements ActionListener{
 		bugIDList = db.getBugIDs();
 		bugReport = db.getBugReport("45184");
 	
-		jlcom = new JLabel();
-		jlScore = new JLabel();
-//		NN = new NeuralNet();
-//		NN.setNN();
+
+		
 		test = new double[1][9];
 		setLayout(null);
-		setTitle("FL TOOL");
+		setTitle("Eval TOOL");
 		setSize(800,700);
 		setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 	String[] labelTitle = {"Commit",
-			"BugReport",
+			"BugReport Set",
 			"SourceFile",
 			"Options"};	
 
@@ -102,7 +115,7 @@ public class SWING extends JFrame implements ActionListener{
 	jp1.setLayout(null);
 	jp1.setBounds(3,3,785,200);
 	jp1.setLocation(3, 15);
-	
+
 	
 	
 	for(int i=0;i<3;i++){
@@ -278,31 +291,189 @@ public class SWING extends JFrame implements ActionListener{
 	jp2.setBorder(tb2);
 	add(jp2);
 	
-	scrollPane = new JScrollPane();
-	scrollPane.setBounds(12, 111, 588, 356);
-    jp2.add(scrollPane);
+	//bottom 시작
+	//왼쪽 시작
+	jpBottom = new JPanel();
+	jpBottom.setLayout(null);
+	jpBottom.setBounds(12, 360, 370, 60);
+	jpBottom.setLocation(12, 360);
+	
+	TitledBorder tbBottom = new TitledBorder(new LineBorder(Color.black));
+	jpBottom.setBorder(tbBottom);
+	
+	jp2.add(jpBottom);
+	
+	
 
-
+	JLabel[] bottomLabel = new JLabel[bottomTitle.length];
+	
+	for(int i=0; i<bottomTitle.length;i++){
+		bottomLabel[i] = new JLabel(bottomTitle[i]);
+	}
+	
+	bottomLabel[0].setBounds(5, 7, 35, 20);
+	bottomLabel[0].setOpaque(false);
+	jpBottom.add(bottomLabel[0]);
+	top1.setBounds(40, 7, 60, 20);
+	top1.setLocation(40, 7);
+	jpBottom.add(top1);
+	
+	bottomLabel[1].setBounds(130, 7, 40, 20);
+	bottomLabel[1].setOpaque(false);
+	jpBottom.add(bottomLabel[1]);
+	top5.setBounds(170, 7, 60, 20);
+	top5.setLocation(170, 7);
+	jpBottom.add(top5);
+	
+	bottomLabel[2].setBounds(260, 7, 40, 20);
+	bottomLabel[2].setOpaque(false);
+	jpBottom.add(bottomLabel[2]);
+	top10.setBounds(300, 7, 60, 20);
+	top10.setLocation(300, 7);
+	jpBottom.add(top10);
+	
+	bottomLabel[3].setBounds(5, 35, 40, 20);
+	bottomLabel[3].setOpaque(false);
+	jpBottom.add(bottomLabel[3]);
+	map.setBounds(40, 35, 60, 20);
+	map.setLocation(40, 35);
+	jpBottom.add(map);
+	
+	bottomLabel[4].setBounds(130, 35, 40, 20);
+	bottomLabel[4].setOpaque(false);
+	jpBottom.add(bottomLabel[4]);
+	mrr.setBounds(170, 35, 60, 20);
+	mrr.setLocation(170, 35);
+	jpBottom.add(mrr);
+	//왼쪽 끝
+	
+	//오른쪽 시작
+	jpBottom2 = new JPanel();
+	jpBottom2.setLayout(null);
+	jpBottom2.setBounds(400, 360, 370, 60);
+	jpBottom2.setLocation(400, 360);
+	
+	TitledBorder tbBottom2 = new TitledBorder(new LineBorder(Color.black));
+	jpBottom2.setBorder(tbBottom2);
+	
+	jp2.add(jpBottom);
+	
+	jp2.add(jpBottom2);
+	
+	JLabel[] bottom2Label = new JLabel[bottomTitle.length];
+	
+	for(int i=0; i<bottomTitle.length;i++){
+		bottom2Label[i] = new JLabel(bottomTitle[i]);
+	}
+	
+	bottom2Label[0].setBounds(5, 7, 35, 20);
+	bottom2Label[0].setOpaque(false);
+	jpBottom2.add(bottom2Label[0]);
+	top1_2.setBounds(40, 7, 60, 20);
+	top1_2.setLocation(40, 7);
+	jpBottom2.add(top1_2);
+	
+	bottom2Label[1].setBounds(130, 7, 40, 20);
+	bottom2Label[1].setOpaque(false);
+	jpBottom2.add(bottom2Label[1]);
+	top5_2.setBounds(170, 7, 60, 20);
+	top5_2.setLocation(170, 7);
+	jpBottom2.add(top5_2);
+	
+	bottom2Label[2].setBounds(260, 7, 40, 20);
+	bottom2Label[2].setOpaque(false);
+	jpBottom2.add(bottom2Label[2]);
+	top10_2.setBounds(300, 7, 60, 20);
+	top10_2.setLocation(300, 7);
+	jpBottom2.add(top10_2);
+	
+	bottom2Label[3].setBounds(5, 35, 40, 20);
+	bottom2Label[3].setOpaque(false);
+	jpBottom2.add(bottom2Label[3]);
+	map_2.setBounds(40, 35, 60, 20);
+	map_2.setLocation(40, 35);
+	jpBottom2.add(map_2);
+	
+	bottom2Label[4].setBounds(130, 35, 40, 20);
+	bottom2Label[4].setOpaque(false);
+	jpBottom2.add(bottom2Label[4]);
+	mrr_2.setBounds(170, 35, 60, 20);
+	mrr_2.setLocation(170, 35);
+	jpBottom2.add(mrr_2);
+	
+	//오른쪽 끝	
+	//bottom 끝
+	
 
 	
-	table = new JTable();
-    table.setModel(new DefaultTableModel(
+	
+	sp1 = new JScrollPane();
+	sp1.setBounds(12, 30, 370, 320);
+    jp2.add(sp1);
+
+
+    sp2 = new JScrollPane();
+	sp2.setBounds(400, 60, 370, 290);
+    jp2.add(sp2);
+
+    clickedSC = new JLabel("Source Code : ");
+    clickedSC.setBounds(400, 30, 90, 20);
+	clickedSC.setOpaque(true);
+	jp2.add(clickedSC);
+	
+	jtClicked.setBounds(490, 30, 280, 20);
+	jtClicked.setLocation(490, 30);
+	jp2.add(jtClicked);
+
+
+
+
+
+	for(int i = 0 ; i < bugIDList.size() ; i++){
+        String bugID = bugIDList.get(i);
+}
+
+	
+	table1 = new JTable();
+    table1.setModel(new DefaultTableModel(
             new Object[][] {
-                   {" ", " ", " ", " ", " ", " ", " ", " "},
+                   {" ", " ", " "},
             },
             new String[] {
-                   "\uC77C\uB828\uBC88\uD638", "\uC6B0\uD3B8\uBC88\uD638", "\uC2DC.\uB3C4", "\uAD6C.\uAD70", "\uB3D9", "\uB9AC", "\uC2DC\uC791\uBC88\uC9C0", "\uB9C8\uC9C0\uB9C9\uBC88\uC9C0"
+                   "Bug Report", "Source Code", "순위"
             }
     ) {
             boolean[] columnEditables = new boolean[] {
-                   false, false, false, false, false, false, false, false
+                   false, false, false
             };
             public boolean isCellEditable(int row, int column) {
                    return columnEditables[column];
             }
     });
    
-    scrollPane.setViewportView(table);
+    sp1.setViewportView(table1);
+    
+    
+    
+    table2 = new JTable();
+    table2.setModel(new DefaultTableModel(
+            new Object[][] {
+                   {" ", " ", " "},
+            },
+            new String[] {
+                   "순위", "Method", "점수"
+            }
+    ) {
+            boolean[] columnEditables = new boolean[] {
+                   false, false, false
+            };
+            public boolean isCellEditable(int row, int column) {
+                   return columnEditables[column];
+            }
+    });
+   
+    sp2.setViewportView(table2);
+
 
 
 
@@ -330,10 +501,10 @@ public class SWING extends JFrame implements ActionListener{
                 arrAdd[0][6] = "3";
                 arrAdd[0][7] = "3";
                
-                table.setModel(new DefaultTableModel(
+                table1.setModel(new DefaultTableModel(
                         arrAdd,
                      new String[] {
-                            "\uC77C\uB828\uBC88\uD638", "\uC6B0\uD3B8\uBC88\uD638", "\uC2DC.\uB3C4", "\uAD6C.\uAD70", "\uB3D9", "\uB9AC", "\uC2DC\uC791\uBC88\uC9C0", "\uB9C8\uC9C0\uB9C9\uBC88\uC9C0"
+                    		 "Bug Report", "Source Code", "순위"
                      }
              ) {
                      boolean[] columnEditables = new boolean[] {
