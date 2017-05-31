@@ -1,0 +1,786 @@
+05-22 12:16:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-22 12:16:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-22 20:28:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-22 20:28:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 14:55:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 14:55:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 14:58:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 14:58:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:01:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:01:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:02:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:02:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:03:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:03:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:03:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:03:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:03:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:03:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:03:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:03:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:04:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:04:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:05:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:05:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:08:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:08:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:08:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:08:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:10:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:10:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:10:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:10:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:10:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:10:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:11:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:11:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:11:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:11:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:12:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:12:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:13:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:13:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:14:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:14:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:14:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:14:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:15:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:15:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:27:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:27:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:28:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:28:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:29:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:29:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:29:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:29:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:29:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:29:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:30:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:30:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:30:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:30:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 15:30:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 15:30:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 16:02:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 16:02:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 16:06:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 16:06:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 16:46:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 16:46:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:02:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:02:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:13:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:13:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:14:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:14:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:15:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:15:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:15:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:15:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:19:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:19:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:23:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:23:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:25:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:25:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:25:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:25:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:26:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:26:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:33:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:33:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:34:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:34:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:35:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:35:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:35:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:35:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:35:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:35:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:36:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:36:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:37:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:37:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:38:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:38:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:38:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:38:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:39:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:39:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:39:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:39:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:40:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:40:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:40:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:40:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:41:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:41:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:42:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:42:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:42:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:42:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:43:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:43:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:43:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:43:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:44:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:44:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:44:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:44:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:45:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:45:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:45:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:45:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:45:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:45:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:46:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:46:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:46:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:46:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:46:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:46:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:47:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:47:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:51:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:51:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:51:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:51:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:54:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:54:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:54:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:54:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:55:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:55:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:59:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:59:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:59:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:59:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:59:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:59:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:59:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:59:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:59:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:59:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 17:59:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 17:59:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:00:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:00:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:00:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:00:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:00:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:00:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:00:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:00:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:01:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:01:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:02:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:02:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:02:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:02:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:03:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:03:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:03:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:03:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:04:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:04:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:04:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:04:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:05:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:05:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:05:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:05:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:05:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:05:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:06:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:06:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:06:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:06:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:07:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:07:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:07:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:07:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:08:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:08:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:08:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:08:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:10:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:10:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:11:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:11:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:11:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:11:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:11:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:11:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:28:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:28:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:30:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:30:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:38:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:38:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:38:29 database: flush
+org.h2.message.DbException: General error: "java.lang.IllegalStateException: The file is locked: nio:/Users/hanseurki/git/graduate/test/DB/aspectj.mv.db [1.4.184/7]" [50000-184]
+	at org.h2.message.DbException.get(DbException.java:168)
+	at org.h2.message.DbException.convert(DbException.java:295)
+	at org.h2.mvstore.db.MVTableEngine$1.uncaughtException(MVTableEngine.java:93)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:377)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:360)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2759)
+	at org.h2.mvstore.db.MVTableEngine$Store.<init>(MVTableEngine.java:162)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:98)
+	at org.h2.engine.Database.getPageStore(Database.java:2379)
+	at org.h2.engine.Database.open(Database.java:666)
+	at org.h2.engine.Database.openDatabase(Database.java:266)
+	at org.h2.engine.Database.<init>(Database.java:260)
+	at org.h2.engine.Engine.openSession(Engine.java:60)
+	at org.h2.engine.Engine.openSession(Engine.java:167)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:145)
+	at org.h2.engine.Engine.createSession(Engine.java:128)
+	at org.h2.engine.Engine.createSession(Engine.java:26)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:347)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
+	at org.h2.Driver.connect(Driver.java:72)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at ver1.DB.<init>(DB.java:20)
+	at ver1.SWING.<init>(SWING.java:82)
+	at ver1.Main.main(Main.java:13)
+Caused by: org.h2.jdbc.JdbcSQLException: General error: "java.lang.IllegalStateException: The file is locked: nio:/Users/hanseurki/git/graduate/test/DB/aspectj.mv.db [1.4.184/7]" [50000-184]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	... 26 more
+Caused by: java.lang.IllegalStateException: The file is locked: nio:/Users/hanseurki/git/graduate/test/DB/aspectj.mv.db [1.4.184/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:773)
+	at org.h2.mvstore.FileStore.open(FileStore.java:170)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:346)
+	... 21 more
+05-31 18:38:43 database: flush
+org.h2.message.DbException: General error: "java.lang.IllegalStateException: The file is locked: nio:/Users/hanseurki/git/graduate/test/DB/aspectj.mv.db [1.4.184/7]" [50000-184]
+	at org.h2.message.DbException.get(DbException.java:168)
+	at org.h2.message.DbException.convert(DbException.java:295)
+	at org.h2.mvstore.db.MVTableEngine$1.uncaughtException(MVTableEngine.java:93)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:377)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:360)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2759)
+	at org.h2.mvstore.db.MVTableEngine$Store.<init>(MVTableEngine.java:162)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:98)
+	at org.h2.engine.Database.getPageStore(Database.java:2379)
+	at org.h2.engine.Database.open(Database.java:666)
+	at org.h2.engine.Database.openDatabase(Database.java:266)
+	at org.h2.engine.Database.<init>(Database.java:260)
+	at org.h2.engine.Engine.openSession(Engine.java:60)
+	at org.h2.engine.Engine.openSession(Engine.java:167)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:145)
+	at org.h2.engine.Engine.createSession(Engine.java:128)
+	at org.h2.engine.Engine.createSession(Engine.java:26)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:347)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
+	at org.h2.Driver.connect(Driver.java:72)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at ver1.DB.<init>(DB.java:20)
+	at ver1.SWING.<init>(SWING.java:82)
+	at ver1.Main.main(Main.java:13)
+Caused by: org.h2.jdbc.JdbcSQLException: General error: "java.lang.IllegalStateException: The file is locked: nio:/Users/hanseurki/git/graduate/test/DB/aspectj.mv.db [1.4.184/7]" [50000-184]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	... 26 more
+Caused by: java.lang.IllegalStateException: The file is locked: nio:/Users/hanseurki/git/graduate/test/DB/aspectj.mv.db [1.4.184/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:773)
+	at org.h2.mvstore.FileStore.open(FileStore.java:170)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:346)
+	... 21 more
+05-31 18:39:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:39:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT * from Initial_BUG_REPORT WHERE BUG_ID = 45184 [42102-184]
+05-31 18:43:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:43:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:43:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:49:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:49:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:49:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:55:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:55:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:55:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:56:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:56:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:56:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:57:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:57:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 18:58:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]
+05-31 19:02:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "INITIAL_BUG_REPORT" not found; SQL statement:
+SELECT BUG_ID from Initial_BUG_REPORT [42102-184]

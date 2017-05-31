@@ -1,0 +1,70 @@
+11-02 21:43:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "SF_INFO" not found; SQL statement:
+DROP TABLE SF_INFO; DROP TABLE SF_VER_INFO; DROP TABLE SF_TERM_INFO; DROP TABLE SF_IMP_INFO; DROP TABLE SF_TERM_WGT; DROP TABLE MTH_INFO; DROP TABLE BUG_INFO; DROP TABLE BUG_CMT_INFO; DROP TABLE BUG_TERM_INFO; DROP TABLE BUG_STRACE_INFO; DROP TABLE BUG_SF_TERM_WGT; DROP TABLE BUG_MTH_TERM_WGT; DROP TABLE BUG_TERM_WGT; DROP TABLE BUG_FIX_SF_INFO; DROP TABLE BUG_FIX_MTH_INFO; DROP TABLE SIMI_BUG_ANAYSIS; DROP TABLE INT_ANALYSIS; DROP TABLE INT_MTH_ANALYSIS; DROP TABLE COMM_INFO; DROP TABLE COMM_SF_INFO; DROP TABLE COMM_MTH_INFO; DROP TABLE VER_INFO;  [42102-184]
+11-02 21:43:28 jdbc[3]: null
+org.h2.message.DbException: The connection was not closed by the application and is garbage collected [90018-184]
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.jdbc.JdbcConnection.closeOld(JdbcConnection.java:174)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:119)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
+	at org.h2.Driver.connect(Driver.java:72)
+	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:190)
+	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:353)
+	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:385)
+	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:227)
+	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
+	at edu.skku.selab.blp.db.dao.BaseDAO.openConnection(BaseDAO.java:58)
+	at edu.skku.selab.blp.db.dao.DbUtil.openConnetion(DbUtil.java:29)
+	at edu.skku.selab.blp.db.dao.DbUtil.main(DbUtil.java:268)
+Caused by: org.h2.jdbc.JdbcSQLException: The connection was not closed by the application and is garbage collected [90018-184]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	... 15 more
+2017-04-26 17:18:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INT_ANALYSIS[*] SELECT * FROM INT_ANALYSIS"; expected "INSERT, {"; SQL statement:
+INT_ANALYSIS SELECT * FROM INT_ANALYSIS [42001-193]
+2017-04-26 17:24:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM (SELECT * FROM (SELECT ROWNUM,* FROM ( SELECT * FROM INT_ANALYSIS WHERE BUG_ID = 364 ORDER BY BLIA_SF_SCORE DESC)) X, BUG_FIX_SF_INFO Y
+WHERE X.BUG_ID = Y.BUG_ID [*]"; expected "(, ., [, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, GROUP, HAVING, UNION, MINUS, EXCEPT, INTERSECT, ORDER, OFFSET, FETCH, LIMIT, FOR, )"; SQL statement:
+SELECT * FROM (select * FROM (select rownum,* from ( SELECT * FROM INT_ANALYSIS where bug_id = 364 order by blia_sf_score desc)) X, BUG_FIX_SF_INFO Y
+WHERE X.BUG_ID = Y.BUG_ID [42001-193]
+04-26 17:45:47 database: flush
+org.h2.message.DbException: General error: "java.lang.IllegalStateException: The file is locked: nio:/Users/hanseurki/git/BLIA/db/zxing.mv.db [1.4.184/7]" [50000-184]
+	at org.h2.message.DbException.get(DbException.java:168)
+	at org.h2.message.DbException.convert(DbException.java:295)
+	at org.h2.mvstore.db.MVTableEngine$1.uncaughtException(MVTableEngine.java:93)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:377)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:360)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2759)
+	at org.h2.mvstore.db.MVTableEngine$Store.<init>(MVTableEngine.java:162)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:98)
+	at org.h2.engine.Database.getPageStore(Database.java:2379)
+	at org.h2.engine.Database.open(Database.java:666)
+	at org.h2.engine.Database.openDatabase(Database.java:266)
+	at org.h2.engine.Database.<init>(Database.java:260)
+	at org.h2.engine.Engine.openSession(Engine.java:60)
+	at org.h2.engine.Engine.openSession(Engine.java:167)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:145)
+	at org.h2.engine.Engine.createSession(Engine.java:128)
+	at org.h2.engine.Engine.createSession(Engine.java:26)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:347)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
+	at org.h2.Driver.connect(Driver.java:72)
+	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:190)
+	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:353)
+	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:385)
+	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:227)
+	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
+	at edu.skku.selab.blp.db.dao.BaseDAO.openConnection(BaseDAO.java:58)
+	at edu.skku.selab.blp.db.dao.DbUtil.openConnetion(DbUtil.java:29)
+	at edu.skku.selab.blp.db.dao.DbUtil.main(DbUtil.java:268)
+Caused by: org.h2.jdbc.JdbcSQLException: General error: "java.lang.IllegalStateException: The file is locked: nio:/Users/hanseurki/git/BLIA/db/zxing.mv.db [1.4.184/7]" [50000-184]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	... 29 more
+Caused by: java.lang.IllegalStateException: The file is locked: nio:/Users/hanseurki/git/BLIA/db/zxing.mv.db [1.4.184/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:773)
+	at org.h2.mvstore.FileStore.open(FileStore.java:170)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:346)
+	... 24 more
