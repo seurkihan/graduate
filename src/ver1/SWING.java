@@ -23,6 +23,7 @@ import javax.swing.filechooser.FileSystemView;
 import javax.swing.table.DefaultTableModel;
 
 import common.BugReport;
+import common.StructuredBugReport;
 
 
 public class SWING extends JFrame implements ActionListener{
@@ -71,19 +72,21 @@ public class SWING extends JFrame implements ActionListener{
 	JLabel clickedSC;
 	JTextField jtClicked = new JTextField(10);
 	
-	
+	String[] bugID;
 
 	
-	static int index = 0;
+
 	static ArrayList<String> bugIDList;
 	static DB db;
 	static BugReport bugReport;
 	public SWING() throws Exception{		
 		db = new DB();
 		bugIDList = db.getBugIDs();
-		bugReport = db.getBugReport("45184");
-	
 
+		for(int i=0; i < bugIDList.size(); i++){
+			bugID[i] = bugIDList.get(i);
+			System.out.print(bugID[i]);
+		}
 		
 		test = new double[1][9];
 		setLayout(null);
@@ -406,7 +409,6 @@ public class SWING extends JFrame implements ActionListener{
 	
 
 	
-	
 	sp1 = new JScrollPane();
 	sp1.setBounds(12, 30, 370, 320);
     jp2.add(sp1);
@@ -424,14 +426,6 @@ public class SWING extends JFrame implements ActionListener{
 	jtClicked.setBounds(490, 30, 280, 20);
 	jtClicked.setLocation(490, 30);
 	jp2.add(jtClicked);
-
-
-
-
-
-	for(int i = 0 ; i < bugIDList.size() ; i++){
-        String bugID = bugIDList.get(i);
-}
 
 	
 	table1 = new JTable();
@@ -490,16 +484,14 @@ public class SWING extends JFrame implements ActionListener{
 		
 		if(b.getText().equals("run")){
 			try {
-				Object[][] arrAdd = new Object[1][8];
+	
+
+				Object[][] arrAdd = new Object[1][3];
 
 				arrAdd[0][0] = "1";
                 arrAdd[0][1] = "2";
                 arrAdd[0][2] = "3";
-                arrAdd[0][3] = "3";
-                arrAdd[0][4] = "3";
-                arrAdd[0][5] = "3";
-                arrAdd[0][6] = "3";
-                arrAdd[0][7] = "3";
+
                
                 table1.setModel(new DefaultTableModel(
                         arrAdd,
@@ -508,7 +500,7 @@ public class SWING extends JFrame implements ActionListener{
                      }
              ) {
                      boolean[] columnEditables = new boolean[] {
-                            false, false, false, false, false, false, false, false
+                            false, false, false
                      };
                      public boolean isCellEditable(int row, int column) {
                             return columnEditables[column];
@@ -516,10 +508,6 @@ public class SWING extends JFrame implements ActionListener{
              });
 
 
-
-				
-				jt[1].setText(bugReport.getDescription());
-				repaint();
 			} catch (Exception e1) {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
