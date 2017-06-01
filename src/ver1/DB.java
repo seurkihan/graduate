@@ -6,6 +6,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 import common.BugReport;
 import common.Property;
@@ -108,6 +109,27 @@ private Connection conn = null;
 			System.out.println("ERROR: GET  BUG ID LIST");
 		}
 		return (ArrayList<String>) bugIdList.clone();
+	}
+	
+	public HashMap<Integer, String> getBugFileRank(String bugID) {
+		HashMap<Integer, String> bugRankMap = new HashMap<Integer, String>();
+		try
+		{
+			Statement q = conn.createStatement();
+			ResultSet rs = q.executeQuery("select * from (select a.bug_id, sf_ver_id, rank, blia_sf_score "
+					+ "from (select rownum as rank, bug_id, sf_Ver_id, blia_sf_score "
+					+ "from (select * from int_analysis where bug_id = " + bugID +" order by blia_Sf_score desc)) a,"
+					+ "bug_fix_sf_info b where a.bug_id = b.bug_id and a.sf_Ver_id = b.fixed_sf_Ver_id) x, "
+					+ "sf_info y where x.sf_ver_id = y.sf_id");
+			while(rs.next()){
+				bugRankMap.put(rs.getInt("Rank"), rs.getString("SF_ID")+" "+rs.getString("SF_NAME"));
+			}
+		}
+		catch(Exception e)
+		{
+			System.out.println("ERROR: GET RANK MAP");
+		}
+		return (HashMap<Integer, String>) bugRankMap.clone();
 	}
 	
 }

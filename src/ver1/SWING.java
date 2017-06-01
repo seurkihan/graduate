@@ -4,6 +4,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
 
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
@@ -78,6 +80,10 @@ public class SWING extends JFrame implements ActionListener{
 	static ArrayList<String> bugIDList = new ArrayList<String>();
 	static DB db;
 	static BugReport bugReport;
+	
+	
+	
+	
 	public SWING() throws Exception{		
 		
 		
@@ -469,6 +475,7 @@ public class SWING extends JFrame implements ActionListener{
 	
 	setVisible(true);
 }
+	static HashMap <String, HashMap<Integer, String>> bugRankMap = new HashMap <String, HashMap<Integer, String>>();
 	
 	@Override
 	public void actionPerformed(ActionEvent e) {
@@ -480,16 +487,38 @@ public class SWING extends JFrame implements ActionListener{
 				db = new DB();
 				bugIDList = db.getBugIDs();
 				String[] bugID = new String[bugIDList.size()];
-
+				int cnt = 0;
+				
 				for(int i=0; i < bugIDList.size(); i++){
 		 			bugID[i] = bugIDList.get(i);
-		 			//System.out.print(bugID[i]+" ");
+		 			HashMap<Integer, String> data = db.getBugFileRank(bugID[i]);
+		 			cnt += data.size();
+		 			bugRankMap.put(bugID[i], data);
 		 		}
 
-				Object[][] arrAdd = new Object[bugIDList.size()][3];
-
-				for(int i=0; i<bugIDList.size(); i++){
-					arrAdd[i][0] = bugID[i];
+				Object[][] arrAdd = new Object[cnt][3];
+				int i=0;
+				
+				Iterator iter = bugRankMap.keySet().iterator();
+				while(iter.hasNext()){
+					String key = (String) iter.next();
+					HashMap<Integer, String> data = bugRankMap.get(key);
+					
+					Iterator iter2 = data.keySet().iterator();
+					while(iter2.hasNext()){
+						int key2 = (int) iter2.next();
+						String sf = data.get(key2);
+						
+						String sfID = sf.split(" ")[0];
+						String sfName = sf.split(" ")[1];
+						
+						arrAdd[i][0] = key;
+						arrAdd[i][1] = sfName;
+						arrAdd[i][2] = key2;
+						
+						i++;
+					}					
+					
 				}
 
                
